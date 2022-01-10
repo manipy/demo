@@ -7,7 +7,7 @@ pipeline {
             steps {
                    git 'https://github.com/jglick/simple-maven-project-with-tests.git'
                 
-                bat "mvn -Dmaven.test.failure.ignore=true clean package"
+                bat "C:\Users\mani\devops\apache-maven-3.8.4\bin\mvn -Dmaven.test.failure.ignore=true clean package"
             }
 
            
